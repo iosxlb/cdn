@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 group-title="公众号：iOS小萝卜" tvg-logo="https://cdn.xlb.lol/lb.png", 🎉 公众号：iOS小萝卜
+https://git.iosxlb.sbs/m3u/bg.m3u8
+#EXTINF:-1,group-title="南海归墟",第01集
+https://git.iosxlb.sbs/m3u/%E5%8D%97%E6%B5%B7%E5%BD%92%E5%A2%9F1.m3u8
+#EXTINF:-1,group-title="南海归墟",第02集
+https://git.iosxlb.sbs/m3u/%E5%8D%97%E6%B5%B7%E5%BD%92%E5%A2%9F2.m3u8
+#EXTINF:-1,group-title="南海归墟",第03集
+https://git.iosxlb.sbs/m3u/%E5%8D%97%E6%B5%B7%E5%BD%92%E5%A2%9F3.m3u8
