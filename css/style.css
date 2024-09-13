@@ -338,6 +338,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-size: 200%;
     background-position: 0%;
+	font-size: 28px;
     font-family: "title";
     animation: backgroundSizeAnimation 10s ease-in-out infinite;
     background-image: var(--gradient);
@@ -699,7 +700,7 @@ footer {
     }
 
     .welcome {
-        font-size: 10vw;
+        font-size: 24px;
         margin: 2vw 0;
 
     }
