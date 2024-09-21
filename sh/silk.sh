@@ -11,7 +11,7 @@ cd opt/
 mkdir silk-decode
 cd silk-decode/
 git clone https://github.com/iosxlb/silk-v3-decoder.git
-cd silk-v3-decoder-master
+cd silk-v3-decoder
 chmod +x converter.sh
 ./converter.sh
 cp encoder /usr/local/bin/
