@@ -10,9 +10,7 @@ yum install gcc-c++ -y
 cd opt/
 mkdir silk-decode
 cd silk-decode/
-wget https://github.com/kn007/silk-v3-decoder/archive/master.zip
-yum install unzip -y
-unzip master.zip 
+git clone https://github.com/iosxlb/silk-v3-decoder.git
 cd silk-v3-decoder-master
 chmod +x converter.sh
 ./converter.sh
