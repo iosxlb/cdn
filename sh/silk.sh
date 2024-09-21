@@ -14,3 +14,5 @@ git clone https://github.com/iosxlb/silk-v3-decoder.git
 cd silk-v3-decoder-master
 chmod +x converter.sh
 ./converter.sh
+cp encoder /usr/local/bin/
+chmod 777 /usr/local/bin/encoder
