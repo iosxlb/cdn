@@ -1,4 +1,4 @@
-cd /opt
+cd opt/
 git clone https://github.com/kn007/silk-v3-decoder.git
 cd silk-v3-decoder
 chmod 777 silk-v3-decoder
