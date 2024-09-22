@@ -5,6 +5,6 @@ chmod 777 silk-v3-decoder
 sh converter.sh
 cd silk
 make encoder
-make decoder || true
+make decoder
 sudo cp encoder /usr/local/bin/
 sudo chmod 777 /usr/local/bin/encoder
