@@ -4,6 +4,7 @@ cd silk-v3-decoder
 chmod 777 silk-v3-decoder
 sh converter.sh
 cd silk
+make clean
 make encoder
 make decoder
 sudo cp encoder /usr/local/bin/
