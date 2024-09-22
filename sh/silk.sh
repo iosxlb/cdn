@@ -6,5 +6,5 @@ sh converter.sh
 cd silk
 make encoder
 make decoder
-cp encoder /usr/local/bin/
-chmod 777 /usr/local/bin/encoder
+sudo cp encoder /usr/local/bin/
+sudo chmod 777 /usr/local/bin/encoder
