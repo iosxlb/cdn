@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /opt
 git clone https://github.com/iosxlb/silk-v3-decoder.git
 cd silk-v3-decoder
