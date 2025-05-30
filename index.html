@@ -162,7 +162,7 @@
 					</svg>site </div>
 				<div class="projectList">
 					
-					<a class="projectItem a" target="_blank" href="https://rjy.xlb.one/">
+					<a class="projectItem a" target="_blank" href="https://rjy.ios.lat/">
 						<div class="projectItemLeft">
 							<h1>iOS小萝卜软件源</h1>
 							<p>福利的资源内容都在里面</p>
@@ -308,7 +308,7 @@
 	</div>
 </body>
 <script>
-	fetch('https://api.xlb.one/api/yan')
+	fetch('https://api.ios.lat/api/yan')
 		.then(response => response.text())
 		.then(announcement => {
 			const announcementElement = document.getElementById("announcement");
@@ -345,7 +345,7 @@
 		const urlVal = $('.qsy .qsyForm #url').val()
 		$.ajax({
 			type: "POST",
-			url: "https://api.xlb.one/api/jh_video?type=json&url="+urlVal,
+			url: "https://api.ios.lat/api/jh_video?type=json&url="+urlVal,
 			dataType: 'json',
 			success: function (data) {
 			    $("#zyyo-loading").css('opacity', '0');
