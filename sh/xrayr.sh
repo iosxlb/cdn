@@ -197,7 +197,7 @@ install_XrayR() {
 
     # 写入配置文件
     echo "正在尝试写入配置文件..."
-    wget http://cdns.4qa.cn/install/config.yml -O /etc/XrayR/config.yml
+    wget https://git.iosheikeji.com/sh/config.yml -O /etc/XrayR/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
    
     echo ""
