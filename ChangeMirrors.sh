@@ -604,7 +604,7 @@ function run_start() {
 
 function run_end() {
     echo -e "\n---------- 脚本执行结束 ----------"
-    echo -e "\n\033[1;34mPowered by https://ios.lat\033[0m\n"
+    echo -e "\n\033[1;34mPowered by https://www.bbyun.top\033[0m\n"
 }
 
 ## 报错退出
